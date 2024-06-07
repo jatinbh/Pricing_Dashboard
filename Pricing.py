@@ -10,7 +10,7 @@ avocado = pd.read_csv('C:/Users/bhard/Downloads/avocado-updated-2020/avocado-upd
 
 
 app = dash.Dash() 
-
+server= app.server
 
 
 app.layout = html.Div(children=[

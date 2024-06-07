@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.express as px
 
 
-avocado = pd.read_csv('C:/Users/bhard/Downloads/avocado-updated-2020/avocado-updated-2020.csv')
+avocado = pd.read_csv('avocado-updated-2020.csv')
 
 
 app = dash.Dash() 
